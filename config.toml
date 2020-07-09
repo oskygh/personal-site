@@ -1,7 +1,7 @@
 # baseURL = "http://osbornesaka.tech"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Osborne Saka"
 theme = "theme-used"
 summarylength = 10
 enableEmoji = true
@@ -13,15 +13,43 @@ enableEmoji = true
 #googleAnalytics = "UA-123-45"
 
 [params]
-title = "I'm Jane Doe"
-author = "Jane Doe"
-description = "Call me Jane"
+title = "Osborne Ofosu Saka"
+author = "Osborne Ofosu Saka"
+description = "I am a coder who lives in Accra, Ghana."
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 customCss = []
-mainSections = ["post"]
+mainSections = ["blog"]
 images = ["images/site-feature-image.png"]
+
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/oskygh/"
+
+[[params.socialIcons]]
+icon = " fa-twitter" 
+title = "twitter"
+url = "https://www.twitter.com/oskygh"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:osborne.saka@gmail.com"
+
 
 
 ## Menu items
@@ -37,12 +65,17 @@ images = ["images/site-feature-image.png"]
   [[menu.main]]
   name = "Posts"
   weight = 200
-  identifier = "posts"
-  url = "/post/"
+  identifier = "blogs"
+  url = "/blog/"
 
   [[menu.main]]
-  name = "About"
+  name = "Resume"
   weight = 300
-  identifier = "about"
-  url = "/about/"
+  identifier = "resume"
+  url = "/resume/"
 
+[[menu.main]]
+  name = "Portfolio"
+  weight = 300
+  identifier = "portfolio"
+  url = "/portfolio/"
