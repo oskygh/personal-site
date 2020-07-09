@@ -23,31 +23,6 @@ customCss = []
 mainSections = ["post"]
 images = ["images/site-feature-image.png"]
 
-## Math settings
-[params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
-
-## Social links
-[[params.socialIcons]]
-icon = "fa-linkedin"
-title = "Linkedin"
-url = "https://de.linkedin.com/"
-
-[[params.socialIcons]]
-icon = "fa-github"
-title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
-
-[[params.socialIcons]]
-icon = "fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
-
-[[params.socialIcons]]
-icon = "fa-envelope"
-title = "e-mail"
-url = "mailto:mail@alexbilz.com"
 
 ## Menu items
 
